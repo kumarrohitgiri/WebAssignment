@@ -1,1 +1,149 @@
-/* start your styling here  */
+.arrow {
+    border: solid #bed5fa;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+}
+
+.arrow:hover {
+    border: solid #bed5fa;
+    border-width: 2px 0 0 2px;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+.header {
+    background-color: #3e72e8;
+    height: 60px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    height: 45px;
+}
+
+input {
+    height: 36px;
+    width: 550px;
+    outline: none;
+    border: none;
+    padding: 0 10px 0 15px;
+    overflow: hidden;
+}
+
+
+button {
+    height: 32px;
+    width: 120px;
+    background-color: #fffffe;
+    border: none;
+
+}
+
+button p {
+    color: #3e72e8;
+    font-size: medium;
+    font-weight: bold;
+}
+
+p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.cart-logo {
+    height: 30px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.more-button {
+    display: flex;
+    gap: 6px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    height: 130px;
+    /*box-shadow: 0px 1px 5px 1px gray; */
+    border-bottom: 1px solid #d1d3d5;
+}
+
+.logo {
+    text-align: center;
+
+}
+
+.logo p {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo p:hover {
+    color: #3e72e8;
+}
+
+.image {
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 6px;
+
+}
+
+.logo-down i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 4px;
+}
+
+.logo-down i:hover {
+    border: solid #3e72e8;
+    border-width: 2px 0 0 2px;
+    display: inline-block;
+    padding: 2px;
+}
