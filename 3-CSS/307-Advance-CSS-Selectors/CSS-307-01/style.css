@@ -1,1 +1,118 @@
-/* start your styling here  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #e3e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-div {
+    background-color: #1b1b27;
+    border-radius: 15px;
+    height: 420px;
+    min-width: 390px;
+    width: 450px;
+
+}
+
+.row1 {
+    display: flex;
+    margin-top: 10px;
+}
+
+.button {
+    height: 55px;
+    line-height: 48px;
+    width: 90px;
+    background-color: #64278f;
+    border: 1px solid black;
+    border: none;
+    transition: transform .1s ease;
+    border-radius: 5px;
+    
+
+}
+
+.button:active {
+    transform: translateY(5px);
+}
+
+.display {
+    height: 55px;
+    width: 370px;
+    background-color: #dcdbe1;
+    border-radius: 5px;
+}
+
+.content {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    margin: 4px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row2 {
+    display: flex;
+}
+
+.row3 {
+    display: flex;
+}
+
+.row4 {
+    display: flex;
+}
+
+.row5 {
+    display: flex;
+}
+
+p {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.zero {
+    color: white;
+    font-size: xx-large;
+}
+
+.dark {
+    background-color: #64278f;
+    width: 200px;
+}
+
+.dark p {
+    color: white;
+
+}
+
+.cyan {
+    background-color: #fc0067;
+    width: 200px;
+}
+
+.button-clear {
+    width: 50px;
+    margin: 0;
+    background-color: #fc0067;
+}
