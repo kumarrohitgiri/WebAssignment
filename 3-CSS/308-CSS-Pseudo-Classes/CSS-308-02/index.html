@@ -4,9 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hover Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- start your code here -->
+    <main>
+        
+        <div class="hover">
+            <h1> 1. </h1>
+            <button> Hover Me </button>
+        </div>
+        <div class="box-1"></div>
+        <!-- <div class="dialog-box">
+            <p> Link 1 </p>
+            <p> Link 2 </p>
+            <p> Link 3 </p>
+        </div> -->
+        <div class="hover">
+            <h1> 2. </h1>
+            <button> Hover Me </button>
+        </div>
+        <div class="box-2"></div>
+        <!-- <div class="dialog-box">
+            <p> Link 1 </p>
+            <p> Link 2 </p>
+            <p> Link 3 </p>
+        </div> -->
+    </main>
+    <script>
+       let firstButton = document.getElementsByTagName('button')[0];
+       let box1 = document.getElementsByClassName("box-1")[0];
+       
+        
+        firstButton.addEventListener("mouseover", () => {
+           let dialogBox = document.createElement("div");
+           dialogBox.setAttribute("class", "dialog-box");
+           box1.appendChild(dialogBox);
+            dialogBox.innerHTML =  `<p> Link 1 </p> <p> Link 2 </p> <p> Link 3 </p>`
+           firstButton.addEventListener("mouseleave", () => {
+           box1.removeChild(dialogBox);
+        })
+        })
+        
+        let secondButton = document.getElementsByTagName('button')[1];
+       let box2 = document.getElementsByClassName("box-2")[0];
+       
+        
+           secondButton.addEventListener("mouseover", () => {
+           let dialogBox = document.createElement("div");
+           dialogBox.setAttribute("class", "dialog-box");
+           box2.appendChild(dialogBox);
+           dialogBox.innerHTML =  ` <p> Link 1 </p> <p> Link 2 </p> <p> Link 3 </p> `
+           secondButton.addEventListener("mouseleave", () => {
+           box2.removeChild(dialogBox);
+        })
+        })
+    </script>
 </body>
 </html>

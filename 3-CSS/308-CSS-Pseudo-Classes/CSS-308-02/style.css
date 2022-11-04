@@ -1,1 +1,54 @@
-/* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+.hover{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 400%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    height: 50px;
+    width: 120px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: large;
+    
+}
+button:hover{
+    background-color: red;
+}
+.dialog-box{
+   border: 1px solid black;
+   height: 140px;
+   width: 160px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 20px;
+   background-color: lightgray;
+   border: none;
+   margin-left: 100px;
+   font-size: large;
+}
+.box-1, .box-2{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
