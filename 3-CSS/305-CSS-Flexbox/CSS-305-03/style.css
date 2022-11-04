@@ -1,1 +1,92 @@
-/* start your styling here  */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-size: 15px;
+}
+.main-div{
+    width: 87vw;
+    max-width: 1000px;
+    height: 45vh;
+    margin: 1rem 0;
+    display: flex;
+}
+.sedans{
+    background-color: #e38826;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+.suvs{
+    background-color: #006970;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+.luxury{
+    background-color: #004241;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+ p{
+    color: #f1f2f2;
+    font-size: large;
+}
+h1{ 
+    color: #f1f2f2;
+    font-size:5ch;
+    
+}
+img{
+    height: 40px;
+    width: 70px;
+    transition: transform .1s ease;
+}
+img:hover{
+    height: 50px;
+    width: 80px;
+}
+img:active{
+    transform: translateX(150px);
+}
+.learn-more {
+background-color: #f2f2f2;   
+width: 125px;
+height: 50px;
+text-decoration: none;
+border-radius: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Lexend Deca";
+font-size: large;
+transition: transform .1s ease;
+} 
+.learn-more:hover{
+    background-color: rgb(197, 197, 197);
+}
+.learn-more:active{
+    transform: translateX(5px);
+}
+.sedans .learn-more{
+    color: #e38826;
+}
+.suvs .learn-more{
+    color: #006970;
+}
+.luxury .learn-more{
+    color: #004241;
+}
