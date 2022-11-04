@@ -1,1 +1,69 @@
-/* start your css here */
+
+.image
+{
+    display: flex;
+    justify-content: center;
+}
+.paragraph
+{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+h1{
+text-align: center;
+justify-content: center;
+
+/* medium / title */
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 44px;
+
+/* medium / text */
+
+color: #292929;
+}
+.ytube
+{
+    display: flex;
+justify-content: center;
+}
+iframe
+{
+    
+    height: 400px;
+    width: 500px;
+    
+   
+}
+img{
+    justify-content: center;
+}
+.paragraph
+{
+    justify-content: absolute;
+}
+p{
+    text-align: left;
+    
+    
+    /* medium / paragraph */
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150.6%;
+    /* or 32px */
+    
+    
+    /* medium / text */
+    
+    color: #292929;
+}

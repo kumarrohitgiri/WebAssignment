@@ -1,1 +1,17 @@
 /* start your css here */
+* {
+    padding-left: 10px;
+  }
+  img {
+    width: 300px;
+    height: 400px;
+  }
+  .price {
+    color: rgb(75, 71, 71);
+  }
+  hr{
+    width: 1500px;
+    height: 5pxpx;
+    
+    border: 2px solid rgb(94, 96, 97);
+  }
