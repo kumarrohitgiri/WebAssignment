@@ -1,1 +1,58 @@
-/* start your styling here  */
+body{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.main{
+    background-color: rgb(24, 11, 207);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    background-color: palevioletred;
+    width: 250px;
+    padding: 2px;
+  
+    
+    
+   
+}
+.button{
+    width: 60px;
+    background-color: rgb(111, 0, 255);
+    height: 40px;
+}
+.button_num1{
+    background-color: rgb(255, 238, 0);
+  height: 40px;
+}
+.button_numC{
+    background-color: rgb(255, 238, 0);
+    border: 0px solid aqua;
+    width: 30px;
+    height: 40px;
+}
+.button_num2{
+   background-color: rgb(255, 238, 0);
+   height: 40px;
+}
+.button_num3{
+    background-color: rgb(255, 238, 0);
+    height: 40px;
+}
+.button_num4{
+    background-color: rgb(255, 238, 0);
+    height: 40px;
+}
+#display{
+    height: 40px;
+    width: 180px;
+}

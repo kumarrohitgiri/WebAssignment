@@ -1,1 +1,36 @@
-/* start your css here */
+body{
+    padding: 2px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: black ;
+    width: 400px;
+    height: 320px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.name{
+    
+    width: 300px;
+     padding:7px;
+     margin: 5px;;
+    
+}
+.button{
+    background-color: black;
+    color:   white;
+    border: 4px solid white;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+.container{
+    
+    text-align: center;
+}
