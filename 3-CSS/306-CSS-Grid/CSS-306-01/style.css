@@ -1,1 +1,126 @@
-/* start your styling here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: black;
+    height: 460px;
+    width: 960px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-1{
+    background-image: linear-gradient(to left, #fb7eb3, #fee0ac);
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   height: 100%;
+}
+.box-2{
+    height: 215px;
+    width: 450px;
+    background-image: linear-gradient(to left, #fb7ef6, #cea8fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-3{
+    height: 215px;
+    width: 450px;
+    display: flex;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inner-box-3, .inner-box-4{
+    background-image: linear-gradient(to left, #fb7eb3, #fee0ac);
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box-2{
+    height: 215px;
+    width: 400px;
+    background-image: linear-gradient(to left, #fb7ef6, #cea8fb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box-4{
+  height: 215px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-5{
+    height: 100px;
+    width: 315px;
+    background-image: linear-gradient(to left, #79ebe0, #71c3fa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-7{
+    background-image: linear-gradient(to left, #fb7eb3, #fee0ac);
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-row-1, .box-row-2{
+    display: flex;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box-6{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+i{
+    color: #eff0f1;
+    font-size: large;
+    
+}
