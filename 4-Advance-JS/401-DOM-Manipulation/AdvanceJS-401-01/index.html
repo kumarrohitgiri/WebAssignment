@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 500px;
+        
+            
+            margin: 100px;
+        }
+        .input{
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <input oninput="firstname(this)" type="text" class="input" >
+        <br>
+        <p class="input" id="firstname"></p>
+        
+        
+
+    </div>
+    <script>
+        function firstname(name){
+            document.getElementById('firstname').innerText=name.value
+        }    
+
+    </script>
+    
+</body>
 </html>
