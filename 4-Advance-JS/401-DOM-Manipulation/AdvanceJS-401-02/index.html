@@ -1,12 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body>
-    Start your code here
-  </body>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            border: 3px solid black;
+            height: 800px;
+            width: 1100px;
+            display: flex;
+            justify-content: center;
+            
+
+        }
+        ul{
+            display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          margin: 20px;
+        }
+        li{
+            
+             border: 2px solid black;
+             
+             display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 10vh;
+          height: 3vh;
+          
+        }
+       
+       
+        
+
+    </style>
+</head>
+<body>
+       <div>
+        <ul class="outer">
+            <li><p> 1st child </p></li>
+            <li><p> 2nd child </p></li>
+            <li><p> 3rd child </p></li>
+            <li><p> 4th child </p></li>
+            <li><p> 5th child </p></li>
+            <li><p> 6th child </p></li>
+            <li><p> 7th child </p></li>
+            <li><p> 8th child </p></li>
+            <li><p> 9th child </p></li>
+            <li><p> 10th child </p></li>
+            <li><p> 11th child </p></li>
+            <li><p> 12th child </p></li>
+            <li><p> 13th child </p></li>
+            <li><p>  14th child </p></li>
+            <li><p> 15th child </p></li>
+            <li><p> 16th child </p></li>
+            <li><p> 17th child </p></li>
+
+       </div>
+        
+        
+
+
+    <script>
+         let list = document.getElementsByTagName('li');
+        
+        list[0].style.backgroundColor = "blue";
+        list[0].style.color = "white";
+
+        list[16].style.backgroundColor = "palevioletred";
+        list[16].style.color = "white";
+
+        list[8].style.backgroundColor = "green";
+        list[8].style.color = "white";
+
+        for(let i = 0; i < list.length; i++){
+            if(i%2 !== 0){
+                list[i].style.backgroundColor = "lime";
+                list[i].style.color = "white";
+            }
+        }
+
+    </script>
+</body>
 </html>
+
